@@ -1,4 +1,6 @@
-package demo_tests_unitaires.demo_tests_unitaires;
+package dev.console;
+
+import dev.utils.StringUtils;
 
 /**
  * Hello world!
@@ -7,7 +9,8 @@ package demo_tests_unitaires.demo_tests_unitaires;
 public class App 
 {
     public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    {        
+        int result = StringUtils.levenshteinDistance("tra", "tr");
+        System.out.println( "Résultat : " + result );
     }
 }

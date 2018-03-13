@@ -1,4 +1,4 @@
-package demo_tests_unitaires.demo_tests_unitaires;
+package dev.test;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
